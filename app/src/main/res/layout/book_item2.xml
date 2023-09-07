@@ -3,11 +3,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="120dp"
     android:layout_margin="20dp">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -27,7 +27,7 @@ android:background="@drawable/algebra"
 
 
         <TextView
-            android:id="@+id/mini_hotel_name"
+            android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -40,25 +40,25 @@ android:background="@drawable/algebra"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/mini_hotel_location"
+            android:id="@+id/muallif"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:text="Odam"
             android:textStyle="italic"
-            app:layout_constraintStart_toStartOf="@+id/mini_hotel_name"
-            app:layout_constraintTop_toBottomOf="@+id/mini_hotel_name" />
+            app:layout_constraintStart_toStartOf="@+id/name"
+            app:layout_constraintTop_toBottomOf="@+id/name" />
 
         <TextView
-            android:id="@+id/mini_hotel_rating"
+            android:id="@+id/rating"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="11dp"
 
             android:text="4.8"
             android:textSize="17dp"
-            app:layout_constraintStart_toStartOf="@+id/mini_hotel_location"
-            app:layout_constraintTop_toBottomOf="@+id/mini_hotel_location" />
+            app:layout_constraintStart_toStartOf="@+id/name"
+            app:layout_constraintTop_toBottomOf="@+id/muallif" />
 
 
 
